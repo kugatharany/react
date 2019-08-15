@@ -1,0 +1,21 @@
+var finalresults=[];
+
+var nums = [5,6,4,10,8,7,12,14,2,1];
+//var x =nums.sort();
+//console.log(x);
+for(i=0; i<nums.length-2; i++){n
+for(j=i+1; j<nums.length-1; j++){
+for(k=j+1; k<nums.length; k++){
+ const a=nums[i];
+ const b=nums[j];
+ const c=nums[k];
+ if(a+b+c===15)
+ {
+ 	//finalresults.push(a,b,c);
+ 	console.log(nums[i],nums[j],nums[k]);
+ }
+}
+
+}
+}
+console.log(finalresults);
